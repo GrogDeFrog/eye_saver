@@ -13,7 +13,7 @@ SOURCES = $(shell find $(SRCDIR) -name '*.cpp' | sort -k 1nr | cut -f2-)
 # Substitute .cpp file extension with .o for object files
 OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
 # Name of final executable
-TARGET = $(BINDIR)/myapp
+TARGET = $(BINDIR)/eye_saver
 
 # Default target
 all: $(TARGET)
