@@ -3,6 +3,10 @@ obj/
 inc/
 lib/
 
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
 temp_code/
 
 eye_saver
